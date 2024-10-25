@@ -1,0 +1,5 @@
+train: ../coco128/images/train2017
+val: ../coco128/images/train2017
+
+nc: 4
+names: ['crying' , 'safe','fell' ,'warning']

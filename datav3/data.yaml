@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['baby', 'climbing', 'crib']
+
+roboflow:
+  workspace: chinchin
+  project: baby-object-detection-6mvrp
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/chinchin/baby-object-detection-6mvrp/dataset/3
